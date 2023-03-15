@@ -74,8 +74,7 @@ namespace CandyCandy
                         Console.ReadKey();
                         System.Environment.Exit(0);
                         break;
-                    case 8:
-                        break;
+
 
 
 

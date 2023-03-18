@@ -31,10 +31,11 @@ namespace CandyCandy
         /// <param name="lista"></param>
         public static void IndexListItems(List<(string, decimal)> lista)
         {
-            Console.WriteLine(
-            String.Join(
-            Environment.NewLine,
-            lista.Select((namn, index) => $"{index + 1}. {namn.Item1.Trim('(', ')')} - {namn.Item2}")));
+            var items = lista.Select((namn, index) => $"{index + 1}. {namn.Item1.Trim('(', ')')} - {namn.Item2}");
+            var strs = string.Join(Environment.NewLine, items);
+
+            Console.WriteLine(strs);
+            Console.WriteLine();
 
         }
 

@@ -75,9 +75,6 @@ namespace CandyCandy
                         System.Environment.Exit(0);
                         break;
 
-
-
-
                     default:
                         Tools.BadMenuChoice();
                         break;

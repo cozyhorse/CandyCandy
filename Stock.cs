@@ -65,7 +65,7 @@ namespace CandyCandy
         };
 
         /// <summary>
-        /// funktion som returnerar alla innehållet i alla listor med varor.
+        /// funktion som returnerar all innehåll i alla listor med varor.
         /// </summary>
         /// <returns></returns>
         public static List<(string, decimal)> AllInvent()
